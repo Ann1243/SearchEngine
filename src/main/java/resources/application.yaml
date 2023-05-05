@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/box?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+indexing-settings:
+  sites:
+
+
+  #  - url: https://www.lenta.ru
+  #    name: Лента.ру
+  #  - url: https://www.skillbox.ru
+  #    name: Skillbox
+    - url: https://www.playback.ru
+      name: PlayBack.Ru
+    - url: https://www.skillbox.ru
+      name: Skillbox
